@@ -9,7 +9,7 @@ public class main {
             int contador = 0;
 
             while (contador < 5) {
-                // Solicitar valores y operación
+                
                 System.out.print("Primer valor: ");
                 int valor1 = scanner.nextInt();
 
@@ -22,7 +22,7 @@ public class main {
                 int resultado = 0;
                 boolean operacionValida = true;
 
-                // Realizar la operación correspondiente
+
                 switch (operacion) {
                     case '+':
                         resultado = calculadora.suma(valor1, valor2);
@@ -41,7 +41,6 @@ public class main {
                         operacionValida = false;
                 }
 
-                // Mostrar y evaluar el resultado
                 if (operacionValida) {
                     System.out.println("Resultado: " + resultado);
 
