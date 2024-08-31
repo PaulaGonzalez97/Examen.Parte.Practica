@@ -9,7 +9,7 @@ public class main {
             int contador = 0;
 
             while (contador < 5) {
-                
+
                 System.out.print("Primer valor: ");
                 int valor1 = scanner.nextInt();
 
